@@ -1,0 +1,17 @@
+{
+  "name": "kata-game",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "test": "jest --watchAll --runInBand --verbose",
+    "dev": "nodemon --exec ts-node ."
+  }
+}
